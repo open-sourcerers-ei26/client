@@ -16,9 +16,7 @@ export default function GameRulesList(props) {
           );
  
     });
-
-    
-
+ 
     return (
       <div>
         <ul className="SideBar-lists" id='myGamesList'>
