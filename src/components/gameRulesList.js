@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import './gameRulesList.css';
 
 export default function GameRulesList(props) {
 
