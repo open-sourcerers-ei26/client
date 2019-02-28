@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from '../components/App';
+import NewGame from '../components/NewGame';
 
-describe('<App/>', () => {
+describe('<NewGame/>', () => {
     it('Renders without crashing', () => {
-        shallow(<App />);
+        shallow(<NewGame />);
     });
 });

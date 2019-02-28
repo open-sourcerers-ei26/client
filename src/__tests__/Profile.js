@@ -1,9 +1,9 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import App from '../components/App';
+import Profile from '../components/Profile';
 
-describe('<App/>', () => {
+describe('<Profile/>', () => {
     it('Renders without crashing', () => {
-        shallow(<App />);
+        shallow(<Profile />);
     });
 });
