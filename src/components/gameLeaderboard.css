@@ -6,7 +6,7 @@
     border-radius: 12px; 
     background-color: #f9f9f5;
     width: 250px;
-    /* border: solid red 1px; */
+    /* border:  solid red 1px; */
     box-shadow: 1px 1px 10px #333;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -14,7 +14,7 @@
   
   .game-leaderboard-lists {
     text-align: left;
-    list-style: none;
+    list-style: none; 
     width: 200px;
   }
   

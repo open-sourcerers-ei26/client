@@ -1,9 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-export class GameScoreOpportunities extends React.Component {
-    componentDidMount() {
-    }    
+export class GameScoreOpportunities extends React.Component {   
 
     render() {
         const scoreOppItems = this.props.scoreOpps.map(item =>

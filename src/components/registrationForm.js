@@ -18,7 +18,7 @@ export class RegistrationForm extends React.Component {
             .then(() => this.props.dispatch(login(username, password)))
             .then(() => {
                 if (email) this.props.dispatch(sendConfirmationEmail());
-                // console.log('email sent');
+                // console.log('email  sent');
             });
     }
 

@@ -42,7 +42,6 @@ const renderRules = ({ fields, meta: { error, submitFailed } }) => (
 
         </div> 
       ))}
-    
   <div>
       <button type="button" onClick={() => fields.push({})}>
         +

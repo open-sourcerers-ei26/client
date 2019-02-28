@@ -13,7 +13,7 @@ import { fetchMyGamesRequest } from '../actions/sideBar-actions';
 
  
 export class Game extends React.Component {
-    
+     
     joinGameButton(){
       this.props.dispatch(joinGame(`${this.props.gameId}`,`${this.props.userName}`))
       .then(()=>this.props.dispatch(fetchMyGamesRequest(this.props.userId)))
@@ -21,7 +21,7 @@ export class Game extends React.Component {
 
     render() {
 
-      //this hides the post a score button if the game has been won...
+      //this  hides the post a score button if the game has been won...
       const winnerDetector = this.props.participants.find(item => {
         return item.score >= this.props.endScore
       })

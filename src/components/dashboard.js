@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import requiresLogin from './RequiresLogin';
-import HeaderBar from './HeaderBar';
+import HeaderBar from './HeaderBar'; 
 import NewGame  from './NewGame';
 import SideBar from './SideBar';
 import GameDashboard  from './GameDashboard';
@@ -27,7 +27,6 @@ export class Dashboard extends React.Component {
                         {this.props.showFindGame && <FindGame/>}
                         {this.props.showNewGame && <NewGame/>}
                         {this.props.showOneGame && <GameDashboard/>}
-                        {/* {this.props.showAllPosts && <Timeline/>} */}
                     </section>	
                 </div>
             </div>

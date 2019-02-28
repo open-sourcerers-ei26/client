@@ -10,7 +10,7 @@ export default function GameLeaderboardListPlayers(props) {
 // > Return Sorted list
 // > For First, Second, Third highlight
 // > List all other players after with rank #
-//Logic to determine if game is over and show end of game info
+//Logic  to determine if game is over and show end of game info
 
 // console.log('GAME DATA @ LIST: ',props.gameParticipants);
 

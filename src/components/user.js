@@ -3,8 +3,6 @@ import './user.css';
 import { connect } from 'react-redux';
 import { fetchUser } from '../actions/';
 
-
-
 class User extends Component {
 componentDidMount() {
     this.props.dispatch(fetchUser())

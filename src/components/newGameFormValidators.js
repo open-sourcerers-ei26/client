@@ -50,6 +50,7 @@ const validate = values => {
         rulesArrayErrors[ruleIndex] = ruleErrors
       }
     })
+    
     if (rulesArrayErrors.length) {
       errors.rules = rulesArrayErrors
     }

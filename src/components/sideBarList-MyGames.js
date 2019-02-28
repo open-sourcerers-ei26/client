@@ -10,7 +10,7 @@ export default function SideBarListMyGames(props) {
   if(props.allMyGames.games.length !== 0) {
     myGames = props.allMyGames.games.map((game, index) => {
         
-      //* could add select css here?
+      //* could  add select css here?
 
       return(
      

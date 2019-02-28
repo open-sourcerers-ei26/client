@@ -15,7 +15,7 @@ import ThirdTrophy from '../assets/images/trophy_3.png';
 export class GameLeaderboard extends React.Component {
     constructor(props){
     super(props);
-
+ 
     this.state = {
  
         prizeType: 0,
@@ -42,7 +42,6 @@ export class GameLeaderboard extends React.Component {
                     prize_3: ThirdBear
                   },
         ]
-      
     }
 
     this.selectPrize = this.selectPrize.bind(this);

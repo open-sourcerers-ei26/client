@@ -7,7 +7,7 @@ import { showFindGame } from '../actions/sideBar-actions';
 import LoginForm from './LoginForm';
 
 export function LandingPage(props) {
-    // If we are logged in redirect straight to the user's dashboard
+    //  If we are logged in redirect straight to the user's dashboard
     if (props.loggedIn) {
         return <Redirect to="/dashboard" />;
     }

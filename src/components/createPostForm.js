@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import {connect} from 'react-redux';
 import './CreatePostForm.css'
 import PostFocus from './PostFocus';
@@ -49,13 +49,11 @@ export class CreatePostForm extends React.Component {
       showButton = null;
     }
 
-
     return (
-        <div  className="" >
-        {postMenu} 
-        {showButton}  
-       </div>
-
+      <div  className="" >
+      {postMenu} 
+      {showButton}  
+      </div>
     );
   }
 }

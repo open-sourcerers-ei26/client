@@ -20,7 +20,7 @@ export class GameProgressBar extends React.Component {
         let topUserPoints = 0;
         
 
-        //if there are participants in the game...
+        //if there  are participants in the game...
         if(players.length > 0){
 
             playerCount = players.length;

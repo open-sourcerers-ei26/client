@@ -9,10 +9,8 @@ import './SideBar.css';
 // import SideBarListCurrentGame from './sideBarList-CurrentGame';
 // import SideBarListMyGameHistory from './sideBarList-MyGameHistory';
 // import SideBarListAllGames from './sideBarList-AllGames';
-// import SideBarListAllPlayers from './sideBarList-AllPlayers';
+// import SideBarListAllPlayers from  './sideBarList-AllPlayers';
 
-
-  
 export class SideBar extends React.Component {
  
   constructor(props){

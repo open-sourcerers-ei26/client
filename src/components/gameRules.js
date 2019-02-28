@@ -2,9 +2,6 @@ import React from 'react';
 import {connect} from 'react-redux';
 
 export class GameRules extends React.Component {
-    componentDidMount() {
-    }    
-
     render() {
 
     let theRulesList = null;

@@ -10,7 +10,6 @@ export default class PostPhotoImageProcess extends React.Component {
     const { uploading, images } = this.props.theState;
   
     const content = () => {
- 
       switch(true) {
         case uploading: 
           return <PostPhotoImageLoading />
@@ -18,8 +17,7 @@ export default class PostPhotoImageProcess extends React.Component {
           return <PostPhotoImages images={this.props.images} removeImage={this.props.removeImage} />
         default: 
           return <PostPhotoButtons onChange={this.props.onChange} noPhoto={this.props.noPhoto}/> 
-      }
-       
+      } 
     } 
   
     return (

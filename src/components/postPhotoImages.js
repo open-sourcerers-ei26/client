@@ -13,9 +13,6 @@ export default function(props) {
         </div>
         <img src={image.secure_url} alt=''/>
       </div>
-
     )
-    
   })
-
 }

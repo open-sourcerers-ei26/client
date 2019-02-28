@@ -32,7 +32,7 @@ export class PostFocus extends React.Component {
      
   } 
 
-  //SUBMIT POST
+  //SUBMIT  POST
   onSubmitPost = () => {
      
     let imageAdd = null;

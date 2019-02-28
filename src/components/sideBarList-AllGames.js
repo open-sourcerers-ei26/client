@@ -10,9 +10,7 @@ export default function SideBarListAllMyGames(props) {
       <li key={index}>
         <button >{game}</button>
       </li>
-
       );
-
     }); 
 
     return (

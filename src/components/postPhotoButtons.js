@@ -6,7 +6,6 @@ export default function(props){
     <div className="addphoto">
       <label htmlFor='single'>Add Photo</label>
       <input type='file' id='single' className="inputfile" onChange={props.onChange} />  
-      
     </div>
   )
 }

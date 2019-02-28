@@ -10,7 +10,7 @@ export class GamePostsList extends React.Component {
 
       return (
         <div className="gamePosts subcard">
-             <h2>Game Score History</h2>
+            <h2>Game Score History</h2>
             <ul>
                 {posts}
             </ul>

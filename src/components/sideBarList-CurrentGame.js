@@ -11,9 +11,7 @@ export default function SideBarListCurrentGame(props) {
       <li key={index}>
         <button>{player}</button>
       </li>
-
       );
-
     }); 
   
     return (

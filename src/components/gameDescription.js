@@ -8,12 +8,12 @@ export class GameDescription extends React.Component {
     render() {
       return (
         <div className="gameDescription subcard">
-        <h3>About this Game</h3>
-        <p>{this.props.gameDesc}</p>
+            <h3>About this Game</h3>
+            <p>{this.props.gameDesc}</p>
         </div>
         );
     }
-}
+} 
 
 const mapStateToProps = state => {
     return {

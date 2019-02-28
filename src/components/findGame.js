@@ -1,9 +1,9 @@
 import React from 'react';
+import './FindGame.css'
 import {connect} from 'react-redux';
 import { fetchAllGames } from '../actions/game'
 import { fetchGameById } from '../actions/game'
 import { showOneGame } from '../actions/sideBar-actions'
-import './FindGame.css'
 
 
 export class FindGame extends React.Component {
@@ -11,7 +11,7 @@ export class FindGame extends React.Component {
         this.props.dispatch(fetchAllGames());
     }    
 
-    gameClicked(id){
+    gameClicked(id){ 
       const { dispatch} = this.props;
       dispatch(fetchGameById(id))
         .then(() =>dispatch(showOneGame()));

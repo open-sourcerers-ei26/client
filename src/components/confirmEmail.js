@@ -14,7 +14,7 @@ export class ConfirmEmail extends React.Component {
 
   render() {
     if (!this.state.confirming) return <Redirect to='/'/>
-    return (
+    return ( 
       <div className='confirmEmail'>
         <p>Processing ... If you are not automatically redirected, please click <Link className='link' to='/'>this link</Link></p>
       </div>
@@ -25,5 +25,5 @@ export class ConfirmEmail extends React.Component {
 const mapStateToProps = state => ({
   message: state.email.message,
   // error: state.email.error
-});
+}); 
 export default connect(mapStateToProps)(ConfirmEmail);

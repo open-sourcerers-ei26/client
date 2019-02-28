@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import {connect} from 'react-redux';
 import {Route, withRouter} from 'react-router-dom';
 import LandingPage from './LandingPage';
@@ -12,7 +12,7 @@ import ConfirmEmail from './ConfirmEmail';
 export class App extends React.Component {
     componentDidUpdate(prevProps) {
         if (!prevProps.loggedIn && this.props.loggedIn) {
-            // When we are logged in, refresh the auth token periodically
+            // When we  are logged in, refresh the auth token periodically
             this.startPeriodicRefresh();
         } else if (prevProps.loggedIn && !this.props.loggedIn) {
             // Stop refreshing when we log out
