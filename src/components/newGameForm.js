@@ -1,7 +1,7 @@
 import React from 'react'
 import { Field, FieldArray, reduxForm } from 'redux-form'
-import validate from './newGameFormValidators'
-import './newGameForm.css'
+import validate from './NewGameFormValidators'
+import './NewGameForm.css'
 
 const renderField = ({ 
   input, 

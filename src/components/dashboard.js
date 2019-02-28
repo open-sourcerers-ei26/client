@@ -1,13 +1,13 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import requiresLogin from './requiresLogin';
-import HeaderBar from './headerBar';
-import NewGame  from './newGame';
-import SideBar from './sideBar';
-import GameDashboard  from './gameDashboard';
-import FindGame from './findGame';
-import Profile from './profile';
-import './dashboard.css';
+import requiresLogin from './RequiresLogin';
+import HeaderBar from './HeaderBar';
+import NewGame  from './NewGame';
+import SideBar from './SideBar';
+import GameDashboard  from './GameDashboard';
+import FindGame from './FindGame';
+import Profile from './Profile';
+import './Dashboard.css';
 import {fetchAllGames} from '../actions/game'
 
 export class Dashboard extends React.Component {

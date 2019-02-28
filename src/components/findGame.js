@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import { fetchAllGames } from '../actions/game'
 import { fetchGameById } from '../actions/game'
 import { showOneGame } from '../actions/sideBar-actions'
-import './findGame.css'
+import './FindGame.css'
 
 
 export class FindGame extends React.Component {

@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import './createPostForm.css'
-import PostFocus from './postFocus';
+import './CreatePostForm.css'
+import PostFocus from './PostFocus';
   
 export class CreatePostForm extends React.Component {
     constructor(){

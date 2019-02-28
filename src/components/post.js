@@ -1,6 +1,6 @@
 import React from 'react'
 import moment from 'moment';
-import './post.css';
+import './Post.css';
 
 export default ({value, description, gameId, createdAt, userId, id, iScored, comment, image}) => {
   const timeStamp = moment(createdAt).format("MMM Do YYYY, h:mm:ss a")

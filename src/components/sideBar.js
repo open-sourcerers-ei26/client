@@ -3,8 +3,8 @@ import {connect} from 'react-redux';
 //import requiresLogin from './requires-login';
 import { fetchMyGamesRequest, showProfile, showAllPosts, showOneGame, showNewGame, showFindGame} from '../actions/sideBar-actions';
 import { fetchAllGames, fetchGameById } from '../actions/game';
-import SideBarListMyGames from './sideBarList-MyGames';
-import './sideBar.css';
+import SideBarListMyGames from './SideBarList-MyGames';
+import './SideBar.css';
 
 // import SideBarListCurrentGame from './sideBarList-CurrentGame';
 // import SideBarListMyGameHistory from './sideBarList-MyGameHistory';

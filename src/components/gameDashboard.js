@@ -1,14 +1,14 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import  GameDescription  from './gameDescription';
-import GameRules from './gameRules';
-import  GameScoreOpportunities  from './gameScoreOpportunities';
-import GameProgressBar from './gameProgressBar';
-import GameLeaderboard from './gameLeaderboard';
-import  CreatePostForm  from './createPostForm';
+import  GameDescription  from './GameDescription';
+import GameRules from './GameRules';
+import  GameScoreOpportunities  from './GameScoreOpportunities';
+import GameProgressBar from './GameProgressBar';
+import GameLeaderboard from './GameLeaderboard';
+import  CreatePostForm  from './CreatePostForm';
 import  GamePostsList  from './GamePostsList';
 import {joinGame} from '../actions/game'
-import './gameDashboard.css';
+import './GameDashboard.css';
 import { fetchMyGamesRequest } from '../actions/sideBar-actions';
 
  

@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import './postPhotoImageLoading';
-import PostPhotoImageProcess from './postPhotoImageProcess';
+import './PostPhotoImageLoading';
+import PostPhotoImageProcess from './PostPhotoImageProcess';
 import {postPost} from '../actions/post'
 import {updateScore} from '../actions/game';
 import {API_BASE_URL} from '../config';

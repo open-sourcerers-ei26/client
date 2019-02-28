@@ -1,11 +1,11 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Route, withRouter} from 'react-router-dom';
-import LandingPage from './landingPage';
-import Dashboard from './dashboard';
-import RegistrationPage from './registrationPage';
+import LandingPage from './LandingPage';
+import Dashboard from './Dashboard';
+import RegistrationPage from './RegistrationPage';
 import {refreshAuthToken} from '../actions/auth';
-import ConfirmEmail from './confirmEmail';
+import ConfirmEmail from './ConfirmEmail';
 
 // import '../App.css';
 

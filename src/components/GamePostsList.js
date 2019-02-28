@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import Post from './post';
+import Post from './Post';
 
 export class GamePostsList extends React.Component {
     render() {

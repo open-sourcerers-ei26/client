@@ -1,5 +1,5 @@
 import React from 'react';
-import './gameLeaderboard.css';
+import './GameLeaderboard.css';
 import { Line } from 'rc-progress';
   
 export default function GameLeaderboardListPlayers(props) {

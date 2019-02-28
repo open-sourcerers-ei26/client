@@ -1,7 +1,7 @@
 import React from 'react';
-import PostPhotoImageLoading from './postPhotoImageLoading';
-import PostPhotoButtons from './postPhotoButtons';
-import PostPhotoImages from './postPhotoImages';
+import PostPhotoImageLoading from './PostPhotoImageLoading';
+import PostPhotoButtons from './PostPhotoButtons';
+import PostPhotoImages from './PostPhotoImages';
  
 export default class PostPhotoImageProcess extends React.Component {
  

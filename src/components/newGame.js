@@ -1,9 +1,9 @@
 import React from "react";
 import {connect} from 'react-redux';
-import NewGameForm from "./newGameForm";
+import NewGameForm from "./NewGameForm";
 import  {postGame}  from '../actions/game'
 import {fetchMyGamesRequest, showOneGame} from '../actions/sideBar-actions';
-import './newGameForm.css'
+import './NewGameForm.css'
 
 export class NewGame extends React.Component {
     newGameSubmit (values){

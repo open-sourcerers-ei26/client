@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from 'react-redux';
-import './profile.css';
-import Post from './post'
+import './Profile.css';
+import Post from './Post'
 import {fetchAllPostsForUserById} from '../actions/post'
 
 export class Profile extends React.Component {

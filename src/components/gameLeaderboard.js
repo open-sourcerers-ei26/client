@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import GameLeaderboardListPlayers from './gameLeaderboardListPlayers';
-import './gameLeaderboard.css'
+import GameLeaderboardListPlayers from './GameLeaderboardListPlayers';
+import './GameLeaderboard.css'
 import FirstMedal from '../assets/images/place_1.png';
 import SecondMedal from '../assets/images/place_2.png';
 import ThirdMedal from '../assets/images/place_3.png';

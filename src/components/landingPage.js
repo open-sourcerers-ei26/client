@@ -2,9 +2,9 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {Link, Redirect} from 'react-router-dom';
 import {login} from '../actions/auth';
-import './landingPage.css';
+import './LandingPage.css';
 import { showFindGame } from '../actions/sideBar-actions';
-import LoginForm from './loginForm';
+import LoginForm from './LoginForm';
 
 export function LandingPage(props) {
     // If we are logged in redirect straight to the user's dashboard
